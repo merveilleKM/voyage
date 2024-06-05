@@ -1,0 +1,274 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header{
+    width: 100%;
+    background-color: black;
+    position: relative;
+    color:white;
+    display: grid;
+   margin-right: 0;
+}
+.div_titre {
+    position: relative;
+    top:10%;
+    text-align: left;
+    margin-left: 2%;
+margin-right: 80%;
+font-size: 25px;
+font-weight: bold;
+}
+
+span{
+    color:red;
+}
+
+ nav{
+    display: grid;
+    margin-left:20%;
+    margin-right:0;
+    margin-top: -2%;
+}
+nav ul a{
+    text-decoration:none;
+    margin: 3%;
+    color:red;
+}
+nav ul a:hover{
+    font-weight: bold;
+}
+
+.div_liens{
+    position: relative;
+    top:10%;
+font-size: 15px;
+font-weight: bold;
+}
+.div_button{
+    display: grid;
+    position: relative;
+    top:15%;
+margin-left: 70%;
+
+}
+.div_button button{
+    margin:5%;
+    border-radius: 25%;
+    width: 35%;
+    height: 40px;
+    background-color:rgb(250, 235, 215);
+}
+.section1{
+    position: relative;
+    width:100%;
+    height: 600px;
+    background-image: url(images/train5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -5%;
+}
+
+
+
+
+.body_page2{
+    background-image: url(images/train5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.body_enregistrement{
+    background-image: url(images/train1.jpg); 
+     background-attachment: cover;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+
+
+
+
+
+
+
+.formulaire {
+    max-width: 400px;
+    margin: 15% auto;
+    padding: 20px;
+    border: 3px solid #ccc; /* Garder une seule valeur pour la bordure */
+    border-radius: 35px; /* Garder une seule valeur pour le border-radius */
+    background-color: #f9f9f931;
+  
+}
+
+
+
+
+
+
+
+/* debut du style de l'authentification */
+
+.formulaire label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formulaire input[type="text"],
+.formulaire input[type="tel"],
+.formulaire input[type="email"],
+.formulaire input[type="password"],
+.formulaire input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border:4px solid #307984;
+    border-radius: 20px;
+}
+.formulaire input[type="submit"] {
+    background-color: gray;
+    color: white;
+    border: 4px solid #3d80a4; /* Ajout d'une bordure de 2px solide de la même couleur que le fond */
+    border-radius: 20px;
+    cursor: pointer;
+}
+.formulaire input[type="submit"]:hover {
+    background-color: aquamarine;
+    font-size: 20px;
+    color:black;
+}
+
+.formulaire a {
+    text-align: justify;
+    text-decoration: none;
+    color:brown;
+}
+
+
+.h2{
+    position: relative;
+    margin-left: 40%;
+    font-size: 40px;
+}
+
+.paragraphe1{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.button_postuler{
+    margin-top: 5%;
+    margin-left:40%;
+    border-radius: 35px;
+    
+    height: 50px;
+    text-decoration: none;
+    background-color: rgba(127, 255, 212, 0.516);
+    
+}
+
+
+.button_postuler a{
+    text-decoration: none;
+    color:red;
+    
+}
+
+.button_postuler:hover{
+    width:21.5%;
+    height: 52px;
+}
+
+
+
+.Home_section1{
+    position: absolute;
+    margin-top: 50%;
+    background-color: aqua;
+}
+
+
+
+
+
+
+.sidebar {
+    overflow: hidden;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    height: 100vh;
+    width: 7%; /* Largeur initiale de la barre de navigation */
+    background-color:red;
+    transition: width 0.9s; /* Animation de transition pour l'élargissement */
+    text-align: justify;
+    opacity: 0.5;
+    z-index: 7;
+   display: none;
+  }
+  
+.sidebar:hover {
+    width: 15%; /* Largeur étendue de la barre de navigation au survol */
+    opacity: 1;
+  }
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15%;
+    text-align: left;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  .btn a{
+    text-decoration: none;
+    color:white;
+  }
+  
+  .btn:hover {
+    background-color: black;
+  }
+
+  .header_home{
+    margin-left: 10%;
+    display: grid;
+  }
+  .recherche_home{
+    border: 5px solid black;
+    border-radius: 50px;
+    height: 50px;
+    margin-top: 6%;
+    margin-right: 2%;
+    background-color: white
+  }
+

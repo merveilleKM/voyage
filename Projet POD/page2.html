@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inscription</title>
+    <link rel="stylesheet" href="esthetique.css">
+</head>
+<body class="body_page2">
+
+
+        <div class="formulaire mt-5">
+            <form method="POST" action="traitement_formulaire.php">
+            <label for="name">Nom</label>
+            <input type="text" id="nom" name="nom" placeholder="entrez votre nom" required>
+            <br>
+            <label for="prename">Prenom</label>
+            <input type="text" id="prenom" name="prenom" placeholder="entrez votre prenom" required>
+            <br>
+            <label for="contact">Contact</label>
+            <input type="tel" id="phone" name="phone" placeholder="Entrez votre numéro de telephone" pattern="[0-9]{9}" required>
+            <br>
+            <label for="email">e-mail</label>
+            <input type="email" id="email" name="email" placeholder="entrez votre email"required>
+            <br>
+            <label for="pass">password</label>
+            <input type="password" id="pass" name="pass" placeholder="entrez votre mot de passe" required>
+            <br>
+            <input type="submit" value="envoyer" name="envoi">
+            </form>
+            </div>
+       
+    
+</body>
+</html>
