@@ -1,0 +1,159 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f2f2;
+}
+.nave{
+    position: fixed;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    padding: 08px 100px;
+    background:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    width: 80px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.navbar a{
+    position: relative;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.navbar .color{
+    color: orangered;
+}
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: -3s;
+}
+.navbar a:hover::before{
+    width: 100%;
+}
+.header{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+.header h1{
+    font-size: 50px;
+    color: #000;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    position: relative;
+}
+.header h1::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: orangered;
+}
+.header p{
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 35px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+.apropos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.image{
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+}
+.image img{
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+.about-container{
+flex: 1;
+}
+.about-container h2{
+    font-size: 23px;
+    margin-bottom: 15px;
+    color: #333;
+}
+.about-container p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+}
+.about-container .plus-d-info{
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 19px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 15px;
+    transition: 0.3s ease;
+}
+.about-container .plus-d-info:hover{
+    color: orangered;
+    background-color: #fff;
+}
+.about-container .plus-d-info{
+    background-color: orangered;
+}
+@media screen and(max-width:768px) {
+.header{
+padding: 0px 20px;
+}    
+.header h1{
+    font-size: 36px;
+}
+.header p{
+    font-size: 17px;
+    margin-bottom: 0px;
+}
+.container{
+    padding: 0px;
+}
+.apropos{
+    padding: 20px;
+    flex-direction: column;
+}
+.image{
+    margin-right: 0px;
+    margin-bottom: 20px;
+}
+.about-container p{
+    padding: 0px;
+    font-size: 16px;
+}
+.about-container .plus-d-info{
+    font-size: 16px;
+}
+}
