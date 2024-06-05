@@ -1,0 +1,27 @@
+@import url("htpps://fonts.googleapis.com/css2? family=Poppins:wgt@300;400;500;600;700;800;900& display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 12%;
+    height: 595px;
+    border: 1px solid aquamarine;
+    background-color: aquamarine;
+    box-shadow: 1px 25px 25px ;
+}
+.titre{
+    text-align: center;
+    padding-top:22px;
+}
+ul li {
+    display: flex;
+    margin-top: 75px;
+    text-align: center;
+    margin-left: 44px;
+    list-style: none;
+}
+.welcome{
+    
+}
